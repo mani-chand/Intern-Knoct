@@ -1,0 +1,85 @@
+html,body{
+    padding: 0;
+    margin:0;
+}
+.Navbar{
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.Form{
+    width: 600px;
+    height: 590px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    gap: 5px;
+    padding:10px;
+    background-color:#4fb634;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+button{
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,139,50,1) 35%, rgba(0,212,255,1) 100%); /* Green */
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top:0px;
+    border:2px solid black;
+}
+button:hover{
+    cursor: pointer;
+}
+.Header{
+    background-color:grey;
+    padding:5px;
+    margin-top:0px;
+    color:#fff;
+    border:2px solid black;
+}
+.form-div{
+    justify-content:space-around;
+}
+.Pan-div{
+    width:460px;
+}
+.Age-div{
+    width:458px;
+}
+.email-div{
+    width:458px;
+}
+.Name-div{
+    width:458px;
+}
+.Aadhar-div{
+    width:458px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.hide{
+    display:none;
+}
